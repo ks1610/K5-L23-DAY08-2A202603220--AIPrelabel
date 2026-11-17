@@ -151,27 +151,6 @@ Phiên bản SAM dùng cho cả ba mask là **SAM 2.1 (`sam2.1_b.pt`)**. Hiện 
 - **Quy tắc 3 (bóng đổ, kính):** img_008 và img_003 đạt, không phủ bóng đổ. img_013 đạt, kính trước thuộc mask.
 - **Quy tắc 4 (vật chạm nhau không chồng):** img_008 đạt. img_003 đạt một phần (đã loại trẻ em và người kéo, nhưng thiếu bánh). img_013 không đạt.
 
-## 6. Calibration (Part 6)
-
-- Số quyết định: <<>> (`calibration_decisions.csv`); quan trọng nhất (dẫn `CAL-xx`): <<>>
-- Quy tắc mới đã vào `guideline_v1.1_calibrated.md`: <<>>
-- Nguyên nhân gốc: <<guideline mơ hồ / chưa nắm quy tắc / máy>>
-
-## 7. QC và quyết định (Part 6)
-
-- Mẫu: <<n>> ảnh (<<m>> ảnh `can_review` + <<k>> ngẫu nhiên, seed 42); người kiểm: bạn (**hạn chế**: bạn vừa là người duyệt).
-- Lỗi theo **đối tượng**: <<.../... = ...%>> · theo **ảnh**: <<.../... = ...%>> (ngưỡng Release ≤ 2%)
-- Top lỗi (trong: bỏ sót, thừa, sai lớp, sai vị trí/kích thước, sai thuộc tính, sai mask) + một ảnh ví dụ mỗi loại: <<>>
-- **Giới hạn mẫu nhỏ** (cận trên 95% trong `qc_report_auto.md`): <<>>
-- Script kiểm được / không kiểm được (ví dụ ôm sát, cùng bỏ sót với máy, theo checklist thật): <<>>
-
-**Quyết định: <<Release / Hold / Rework>>**, ngày <<YYYY-MM-DD>>. Lý do (đi theo Hold → Rework → Release): <<>>
-Nếu Rework / Hold, việc cần làm tiếp: <<>>
-
-
-Dữ liệu đã đủ để điền mục 6 và 7, nhưng có hai lỗi trong file cần sửa trước, và một số phần phải do bạn xác nhận.
-
-
 ## Mục 6. Calibration (Part 6)
 
 - **Số quyết định:** 7 dòng (C01–C07) trong `calibration_decisions.csv`. Đạt yêu cầu ≥3 dòng, có 2 `loi_may` (C01, C06) và 5 `cau_hoi_mo` (C02, C03, C04, C05, C07).
