@@ -1,11 +1,11 @@
 # Thông tin học viên
 
-- Họ và tên: <<>>
-- MSHV: <<>>
-- Lớp (L2 / L3 / khác): <<>>
-- Tài khoản GitHub: <<>>
-- Repo bài nộp (URL): <<>>
-- Commit chốt bài (hash): <<>>
+- Họ và tên: Trịnh Vinh Khánh
+- MSHV: 2A202603220
+- Lớp (L2 / L3 / khác): L2
+- Tài khoản GitHub: ks1610
+- Repo bài nộp (URL): https://github.com/ks1610/K5-L23-DAY08-2A202603220--AIPrelabel/tree/main
+- Commit chốt bài (hash): 
 - Máy: <<hệ điều hành, GPU (CUDA / MPS / không có)>>
 - CVAT (Docker): <<phiên bản, ví dụ v2.81.0>>
 

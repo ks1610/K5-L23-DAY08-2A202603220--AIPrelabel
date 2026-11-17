@@ -13,13 +13,20 @@ import sys
 import urllib.request
 from pathlib import Path
 
-for _stream in (sys.stdout, sys.stderr):
-    if hasattr(_stream, "reconfigure"):
-        try:
-            _stream.reconfigure(encoding="utf-8", errors="replace")
-        except Exception:
-            pass
-
+for _stream in (sys.stdout, sys.stderr):
+
+    if hasattr(_stream, "reconfigure"):
+
+        try:
+
+            _stream.reconfigure(encoding="utf-8", errors="replace")
+
+        except Exception:
+
+            pass
+
+
+
 ROOT = Path(__file__).resolve().parent.parent
 bad = 0
 
@@ -37,8 +44,10 @@ def main():
     a = ap.parse_args()
 
     v = sys.version_info
-    line("PASS" if (3, 10) <= v[:2] <= (3, 13) else "WARN", f"Python {v.major}.{v.minor}.{v.micro}",
-         "" if (3, 10) <= v[:2] <= (3, 13) else "dùng Python 3.10-3.13 (khuyến nghị 3.12; 3.14+: torch/ultralytics/opencv có thể chưa có bản cài sẵn)")
+    line("PASS" if (3, 10) <= v[:2] <= (3, 13) else "WARN", f"Python {v.major}.{v.minor}.{v.micro}",
+
+         "" if (3, 10) <= v[:2] <= (3, 13) else "dùng Python 3.10-3.13 (khuyến nghị 3.12; 3.14+: torch/ultralytics/opencv có thể chưa có bản cài sẵn)")
+
 
     need = {"numpy": "numpy", "PIL": "pillow", "cv2": "opencv-python-headless", "matplotlib": "matplotlib",
             "yaml": "pyyaml", "torch": "torch", "ultralytics": "ultralytics", "transformers": "transformers"}
