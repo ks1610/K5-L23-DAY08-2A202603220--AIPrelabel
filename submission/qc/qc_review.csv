@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,id=5,extra,2A202603220,Hai box three_wheeler trên cùng một xe đẩy
+img_006.jpg,,khong,2A202603220,Đã kiểm tra toàn bộ box person và motorbike phía sau; không thấy box sai hoặc thiếu
+img_014.jpg,,khong,2A202603220,Đã kiểm tra nhóm người và xe máy phía xa; box bao đúng một vật
+img_031.jpg,id=443,loose,2A202603220,Box bicycle bao cả giỏ hàng
+img_035.jpg,,khong,2A202603220,Đã kiểm tra box person ở rìa trái và nhóm xe máy giữa ảnh; không lỗi
