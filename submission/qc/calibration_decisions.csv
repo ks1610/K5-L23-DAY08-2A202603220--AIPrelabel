@@ -1,1 +1,83 @@
-case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+C01,img_003.jpg,loi_may,Hai box three_wheeler chồng lên cùng một xe đẩy hai bánh,Xóa một box trùng và kéo box còn lại bao phủ toàn bộ vật thể,"Mỗi phương tiện chỉ có một box. Khi có box trùng, giữ một box và kéo để bao phủ toàn bộ vật thể.",v1.1,Hai box three_wheeler chồng lên cùng một xe đẩy hai bánh,Xóa một box trùng và kéo box còn lại bao phủ toàn bộ vật thể,"Mỗi phương tiện chỉ có một box. Khi có box trùng, giữ một box và kéo để bao phủ toàn bộ vật thể.",v1.1
+C02,img_003.jpg,cau_hoi_mo,"Xe đẩy hai bánh không động cơ có thuộc three_wheeler không","Gán lớp three_wheeler",Xe xích lô và xe đẩy ba bánh thuộc lớp three_wheeler theo định nghĩa trong guideline v1.0.,v1.1,Xe đẩy hai bánh không động cơ có thuộc three_wheeler không,Gán lớp three_wheeler,Xe xích lô và xe đẩy ba bánh thuộc lớp three_wheeler theo định nghĩa trong guideline v1.0.,v1.1
+C03,img_003.jpg,cau_hoi_mo,Trẻ em và người lớn ngồi trên xe đẩy: gán person và loại khỏi mask?,Gán nhãn person cho những người ngồi trên xe mà có thể nhìn thấy được,"Người ngồi trên phương tiện, nhìn thấy được, được gán nhãn person riêng. Người đó không nằm trong mask của phương tiện.",v1.1,Trẻ em và người lớn ngồi trên xe đẩy: gán person và loại khỏi mask của xe?,Gán nhãn person cho những người ngồi trên xe mà có thể nhìn thấy được,"Người ngồi trên phương tiện, nhìn thấy được, được gán nhãn person riêng. Người đó không nằm trong mask của phương tiện.",v1.1
+C04,img_008.jpg,cau_hoi_mo,"Hai xe đẩy hai bánh không động cơ chở chuối: gán lớp nào?",Gán lớp three_wheeler,"Xe đẩy hai bánh chở hàng thuộc lớp three_wheeler, giống xe xích lô.",v1.1,Hai xe đẩy hai bánh không động cơ chở chuối: gán lớp nào?,Gán lớp three_wheeler,"Xe đẩy hai bánh chở hàng thuộc lớp three_wheeler, giống xe xích lô.",v1.1
+C05,img_008.jpg,cau_hoi_mo,Chuối và hàng hoá trên xe có nằm trong mask không?,"Chỉ mask những phần nhìn thấy của xe như bánh xe và khung xe, không mask hàng hoá trên xe","Mask chỉ gồm phần xe: bánh, khung, thân. Hàng hoá trên xe không thuộc mask.",v1.1,Chuối và hàng hoá trên xe có nằm trong mask không?,"Chỉ mask những phần nhìn thấy của xe như bánh xe và khung xe, không mask hàng hoá trên xe","Mask chỉ gồm phần xe: bánh, khung, thân. Hàng hoá trên xe không thuộc mask.",v1.1
+C06,img_013.jpg,loi_may,"Tuk-tuk bị gán là car (conf 0.42), box cắt cụt đuôi xe làm mask SAM sai theo",Sửa thành nhãn three_wheeler cho xe tuk-tuk,"Tuk-tuk ba bánh có mái che thuộc lớp three_wheeler, không gán car hoặc truck.",v1.1,Tuk-tuk bị gán là car,Sửa thành nhãn three_wheeler cho xe tuk-tuk,"Tuk-tuk ba bánh có mái che thuộc lớp three_wheeler, không gán car hoặc truck.",v1.1
+C07,img_013.jpg,cau_hoi_mo,Người lái và hành khách trong tuk-tuk: gán person và loại khỏi mask?,Gán nhãn person cho những người ngồi trên xe mà có thể nhìn thấy được,Người lái và hành khách nhìn thấy được được gán person riêng và không nằm trong mask của tuk-tuk.,v1.1,Người lái và hành khách trong tuk-tuk: gán person và loại khỏi mask?,Gán nhãn person cho những người ngồi trên xe mà có thể nhìn thấy được,Người lái và hành khách nhìn thấy được được gán person riêng và không nằm trong mask của tuk-tuk.,v1.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
