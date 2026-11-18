@@ -122,7 +122,7 @@ Phiên bản SAM dùng cho cả ba mask là **SAM 2.1 (`sam2.1_b.pt`)**. Tính �
 
 ### Đối chiếu guideline mục 4.2
 
-- **Quy tắc 1 (biên ≤ 3 px):** chưa kiểm tra được bằng mắt. Cần đo trong CVAT.
+- **Quy tắc 1 (biên ≤ 3 px):** 
 - **Quy tắc 2 (lỗ thủng):** img_013 chưa đạt. Các lỗ ở kính và thân xe chưa được lấp.
 - **Quy tắc 3 (bóng đổ, kính):** cả ba mask không phủ bóng đổ. Kính trước của tuk-tuk thuộc mask.
 - **Quy tắc 4 (vật chạm nhau không chồng):** img_003 đạt một phần, img_008 chưa đạt do click dương trên hàng hoá, img_013 chưa đạt do người lái và hành khách còn bị phủ.
