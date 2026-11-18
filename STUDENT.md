@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2
 - Tài khoản GitHub: ks1610
 - Repo bài nộp (URL): https://github.com/ks1610/K5-L23-DAY08-2A202603220--AIPrelabel/tree/main
-- Commit chốt bài (hash): 00fbe1a…b31da8f 
+- Commit chốt bài (hash): d3bd2056e8a9ead4649e4240d7c67faccc0c2ca1 
 - Máy:  Microsoft Windows 11 Pro, NVIDIA RTX A2000 Laptop GPU 
 - CVAT (Docker): v2.74.1
 
